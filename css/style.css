@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: #777;
+    padding: 0 40rem;
+    box-sizing: border-box;
+}
+
+/* Start NavBar  */
+.body-container {
+    box-shadow: 0 0.5rem 1rem rgba(24, 23, 23, 0.3);
+    padding: 3rem;
+}
+
+.bg-light {
+    background-color: #FFF !important;
+
+}
+
+/* End NavBar  */
+
+.line-grey {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #CCC;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+/* Start Heading  */
+.sub-heading {
+    font-size: 1.5rem;
+}
+
+/* End Heading  */
+.more-info-heading {
+    padding: 0 15rem;
+}
+
+.more-info .btn-lg {
+    padding: 1.5rem 5rem;
+    font-size: 2.25rem;
+    line-height: 1.5;
+    border-radius: 1.3rem;
+    background-color: #0B466D;
+    border-color: #0B466D;
+    color: #fff;
+}
+
+.more-info .btn-lg:active,
+.more-info .btn-lg:hover,
+.more-info .btn-lg:focus,
+.more-info .btn-lg:link {
+    background-color: #0B4653;
+    border-color: #0B4653;
+}
+
+.more-info-heading {
+    color: #242D43;
+}
+
+.rate-us .btn-lg {
+    padding: 1rem 3rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 1.3rem;
+
+}
+
+/* Footer  */
+.footer-sec {
+    background-color: #0B466D;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+/*===================================
+           Media Query
+=====================================*/
+
+@media (max-width: 575.98px) {
+    body {
+        padding: 0 0rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        padding: 0 0rem;
+    }
+}
+
+@media (max-width: 991.98px) and (min-width: 768px) {
+    body {
+        padding: 0 0rem;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 991.99px) {
+    body {
+        padding: 0 0rem;
+    }
+}
+
+@media (max-width: 1367px) and (min-width: 1201px) {
+    body {
+        padding: 0 0rem;
+    }
+}
