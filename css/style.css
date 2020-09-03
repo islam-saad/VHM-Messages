@@ -98,6 +98,10 @@ body {
     body {
         padding: 0 0rem;
     }
+
+    .more-info-heading {
+        padding: 0 0.5rem;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
