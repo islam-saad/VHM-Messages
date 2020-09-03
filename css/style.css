@@ -108,6 +108,10 @@ body {
     body {
         padding: 0 0rem;
     }
+
+    .more-info-heading {
+        padding: 0 0.5rem;
+    }
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) {
@@ -119,6 +123,10 @@ body {
 @media (max-width: 1200px) and (min-width: 991.99px) {
     body {
         padding: 0 0rem;
+    }
+
+    .more-info-heading {
+        padding: 0 0.5rem;
     }
 }
 
