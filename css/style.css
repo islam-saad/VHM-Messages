@@ -26,9 +26,13 @@ body {
     /* padding: 3rem; */
 }
 
+.navbar {
+    background-color: #0B466D !important;
+
+}
+
 .bg-light {
     background-color: #FFF !important;
-
 }
 
 /* .jumbotron {
