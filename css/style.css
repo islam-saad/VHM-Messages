@@ -80,11 +80,17 @@ body {
 }
 
 .more-info .btn-lg:active,
-.more-info .btn-lg:hover,
 .more-info .btn-lg:focus,
 .more-info .btn-lg:link {
     background-color: #0B4653;
     border-color: #0B4653;
+}
+
+.more-info .btn-lg:hover {
+    background-color: #0B4653;
+    border-color: #0B4653;
+    transform: translateY(-0.3rem);
+    box-shadow: 0 0.5rem 1rem rgba(24, 23, 23, 0.3);
 }
 
 .more-info-heading {
