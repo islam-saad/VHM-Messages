@@ -42,44 +42,45 @@
             </div>
         </section>
         <!-- End Video Section  -->
-        <!-- Start heading -->
-        <section class="heading p-5">
-            <div class="container">
-                <div class="row">
+        <div class="wraper">
+            <!-- Start heading -->
+            <section class="heading p-5">
+                <div class="container">
+                    <div class="row">
 
-                    <h1 class="text-primary font-weight-bold text-uppercase">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, ipsa?</h1>
-                    <p class="sub-heading">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est velit optio a, officia atque ea facilis ducimus quas inventore ab aliquid fugit alias. Quis exercitationem quaerat voluptates vel modi, libero itaque natus eveniet suscipit tempore numquam veniam nihil accusantium! Laborum deserunt rem a! Voluptatum odit perferendis officia. Alias, corrupti tempore.
-                    </p>
-                    <p class="sub-heading">
-                        <strong>Lorem ipsum dolor</strong> sit amet, consectetur adipisicing elit. Est velit optio a, officia atque ea facilis ducimus quas inventore ab aliquid fugit alias. Quis exercitationem quaerat voluptates vel modi, libero itaque natus eveniet suscipit tempore numquam veniam nihil accusantium! Laborum deserunt rem a! Voluptatum odit perferendis officia. Alias, corrupti tempore.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- End heading -->
-        <!-- images section  -->
-        <section class="image-com p-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h1 class="text-primary font-weight-bold mx-auto text-uppercase">Lorem ipsum dolor sit amet.</h1>
-
-                        <p class="sub-heading mx-auto">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorum.
+                        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, ipsa?</h1>
+                        <p class="sub-heading">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est velit optio a, officia atque ea facilis ducimus quas inventore ab aliquid fugit alias. Quis exercitationem quaerat voluptates vel modi, libero itaque natus eveniet suscipit tempore numquam veniam nihil accusantium! Laborum deserunt rem a! Voluptatum odit perferendis officia. Alias, corrupti tempore.
                         </p>
-                        <img src="img/mobile1.png" class="img-fluid" height="500" alt="Responsive image">
+                        <p class="sub-heading">
+                            <strong>Lorem ipsum dolor</strong> sit amet, consectetur adipisicing elit. Est velit optio a, officia atque ea facilis ducimus quas inventore ab aliquid fugit alias. Quis exercitationem quaerat voluptates vel modi, libero itaque natus eveniet suscipit tempore numquam veniam nihil accusantium! Laborum deserunt rem a! Voluptatum odit perferendis officia. Alias, corrupti tempore.
+                        </p>
                     </div>
-
                 </div>
-            </div>
-        </section>
+            </section>
+            <!-- End heading -->
+            <!-- images section  -->
+            <section class="image-com p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <h1>Lorem ipsum dolor sit amet.</h1>
+
+                            <p class="mx-auto">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorum.
+                            </p>
+                            <img src="img/mobile1.png" alt="Responsive image">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- images section  -->
+
+        </div>
+
         <!-- images section  -->
-
-
-
-        <!-- images section  -->
-        <section class="more-info p-5">
+        <section class="more-info p-5" style="background-color:#FFB902 ;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -91,7 +92,7 @@
         </section>
         <!-- images section  -->
         <!-- contact Us section  -->
-        <section class="contact-us p-5">
+        <!-- <section class="contact-us p-5" style="background-color:#FF4A51 ;">
             <div class="container">
                 <div class="row">
                     <h2 class=" font-weight-bold  mb-4">Contact Us Today</h2>
@@ -100,7 +101,7 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- contact Us section  -->
 
         <footer class="footer-sec py-3">
@@ -122,13 +123,32 @@
 
 
     </div>
-
+    <!--  Modal -->
+    <div class="modal" tabindex="-1" id="exampleModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title">Modal title</h5> -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p style="font-size: 1.5rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa architecto, dolorem tempora autem ullam facere labore non totam magnam voluptate?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  Modal -->
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
+    <script src="js/main.js"></script>
     <script>
         // Get the current year for the copyright
         $('#year').text(new Date().getFullYear());
