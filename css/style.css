@@ -94,6 +94,11 @@ body {
     margin-bottom: 1rem;
 }
 
+.wraper li {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
 .wraper img {
     max-width: 100%;
     height: auto;
@@ -149,11 +154,39 @@ body {
 }
 
 .contact-us {
-    background-color: #FF4A51;
     color: #FFFFFA;
 }
 
+.contact-us .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
 
+.contact-us .btn-link {
+    font-weight: 400;
+    color: #007bff;
+    background-color: transparent;
+}
+
+.contact-us .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 2rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
 
 .rate-us .btn-lg {
 
