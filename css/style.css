@@ -86,7 +86,7 @@ body {
 .wraper p {
     font-size: 1.5rem;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     color: #131B48;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .wraper img {
-    width: 100%;
+    width: 100% !important;
     height: auto;
 }
 
