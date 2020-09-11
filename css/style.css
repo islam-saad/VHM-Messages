@@ -86,24 +86,24 @@ body {
 .wraper p {
     font-size: 1.5rem;
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
     color: #131B48;
 }
 
 .wraper ul {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     margin-left: 2rem;
     color: #131B48;
 }
 
 .wraper ol {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     margin-left: 2rem;
     color: #131B48;
 }
 
 .wraper img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -116,7 +116,7 @@ body {
 }
 
 .more-info h2 {
-    color: #FF0000;
+    /* color: #FF0000; */
 }
 
 .more-info .btn-lg {
