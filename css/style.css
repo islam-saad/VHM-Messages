@@ -235,7 +235,7 @@ body {
 
 @media (max-width: 575.98px) {
     body {
-        padding: 0 0rem;
+        padding: 0;
     }
 
     .more-info-heading {
@@ -251,7 +251,7 @@ body {
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     body {
-        padding: 0 0rem;
+        padding: 0;
     }
 
     .more-info-heading {
@@ -267,7 +267,7 @@ body {
 
 @media (max-width: 991.98px) and (min-width: 768px) {
     body {
-        padding: 0 0rem;
+        padding: 0;
     }
 
     .video-section iframe {
