@@ -279,7 +279,7 @@ body {
 
 @media (max-width: 1200px) and (min-width: 991.99px) {
     body {
-        padding: 0 0rem;
+        padding: 0 12rem;
     }
 
     .more-info-heading {
@@ -295,7 +295,7 @@ body {
 
 @media (max-width: 1367px) and (min-width: 1201px) {
     body {
-        padding: 0 0rem;
+        padding: 0 12rem;
     }
 
     .video-section iframe {
