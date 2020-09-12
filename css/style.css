@@ -56,7 +56,7 @@ body {
 
 .video-section iframe {
     background-color: #000;
-
+    border: 5px solid #000;
 }
 
 .wraper h1 {
@@ -244,7 +244,6 @@ body {
 
     .video-section iframe {
         height: 90vh;
-        background-color: #000;
     }
 }
 
@@ -257,16 +256,18 @@ body {
         padding: 0 0.5rem;
     }
 
-    /* .video-section iframe {
-        background-color: #000;
-        border: 20px solid #000;
-
-    } */
+    .video-section iframe {
+        height: 90vh;
+    }
 }
 
 @media (max-width: 991.98px) and (min-width: 768px) {
     body {
         padding: 0 0rem;
+    }
+
+    .video-section iframe {
+        height: 90vh;
     }
 }
 
@@ -278,10 +279,18 @@ body {
     .more-info-heading {
         padding: 0 0.5rem;
     }
+
+    .video-section iframe {
+        height: 90vh;
+    }
 }
 
 @media (max-width: 1367px) and (min-width: 1201px) {
     body {
         padding: 0 0rem;
+    }
+
+    .video-section iframe {
+        height: 90vh;
     }
 }
