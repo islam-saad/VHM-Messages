@@ -1,4 +1,4 @@
-﻿*,
+*,
 *::after,
 *::before {
     margin: 0;
@@ -11,14 +11,14 @@ html {
 }
 
 body {
+    /* font-family: "lato", sans-serif; */
     font-weight: 400;
+    /* font-size: 16px; */
     line-height: 1.7;
     color: #777;
     padding: 0 40rem;
     box-sizing: border-box;
     background-color: #FFFFFF;
-    text-align: inherit !important;
-    font-family: 'Tajawal', sans-serif;
 }
 
 /* Start NavBar  */
@@ -43,6 +43,7 @@ body {
 /* .jumbotron {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)), url(../img/hero.jpg);
 }
+
 .jumbotron h2 {
     color: #2D527C;
     letter-spacing: 3px;
@@ -53,6 +54,10 @@ body {
 
 /* End NavBar  */
 
+/* .video-section iframe {
+    background-color: #000;
+    border: 20px solid #000;
+} */
 
 .wraper h1 {
     color: #FF0000 !important;
@@ -103,22 +108,19 @@ body {
 
 .wraper img {
     width: 100% !important;
-    height: auto !important;
+    height: auto;
 }
 
 /* Start Heading  */
 .sub-heading {}
 
 /* End Heading  */
-.more-info-heading {}
+.more-info-heading {
+    padding: 0 15rem;
+}
 
 .more-info h2 {
     /* color: #FF0000; */
-}
-
-.video-section iframe {
-    /*    background-color: #000;
-    border: 20px solid #000;*/
 }
 
 .more-info .btn-lg {
@@ -191,23 +193,9 @@ body {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-
-
-.rate-us .btn-lg:active,
-.rate-us .btn-lg:focus,
-.rate-us .btn-lg:link {
-    background-color: #007BFF;
-    border-color: #007BFF;
-    color: #FFF;
-}
-
 /* Rate us  */
-.rate-us .btn-outline-primary {
-    padding: 0.6rem 2rem;
-}
-
 .rate-us .rate-text {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .rating {
@@ -222,8 +210,8 @@ body {
 
 .rating>label {
     position: relative;
-    width: 40px;
-    font-size: 25px;
+    width: 1em;
+    font-size: 3vw;
     color: #FFD600;
     cursor: pointer
 }
@@ -254,14 +242,6 @@ body {
     font-size: 1.2rem;
 }
 
-
-/* Footer  */
-.footer-sec {
-    background-color: #000;
-    color: #FFF;
-    font-size: 1.2rem;
-}
-
 /*===================================
            Media Query
 =====================================*/
@@ -278,6 +258,7 @@ body {
     .video-section iframe {
         height: 80vh;
         border: 0;
+
     }
 }
 
@@ -293,6 +274,7 @@ body {
     .video-section iframe {
         height: 70vh;
         border: 0;
+
     }
 }
 
@@ -304,6 +286,7 @@ body {
     .video-section iframe {
         height: 70vh;
         border: 0;
+
     }
 }
 
@@ -319,6 +302,7 @@ body {
     .video-section iframe {
         height: 60vh;
         border: 0;
+
     }
 }
 
@@ -330,4 +314,6 @@ body {
     .video-section iframe {
         height: 60vh;
         border: 0;
+
     }
+}
