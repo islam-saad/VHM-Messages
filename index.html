@@ -141,8 +141,17 @@
                 <div class="row mb-3">
                     <div class="col-md-12">
                         <h4 class="mb-4" style="color: #000;font-size: 2rem;">Was This Information helpful ?</h4>
-                        <button type="button" class="btn btn-outline-primary btn-lg mr-3"><i class="fas fa-thumbs-up fa-2x"></i></button>
-                        <button type="button" class="btn btn-outline-primary btn-lg"><i class="fas fa-thumbs-down fa-2x"></i></button>
+                        <!-- <button type="button" class="btn btn-outline-primary btn-lg mr-3" data-toggle="button"><i class="fas fa-thumbs-up fa-2x"></i></button>
+                        <button type="button" class="btn btn-outline-primary btn-lg" data-toggle="button"><i class="fas fa-thumbs-down fa-2x"></i></button> -->
+                        <div class="btn-group btn-group-toggle btn-lg" data-toggle="buttons">
+
+                            <label class="btn btn-primary btn-lg">
+                                <input type="radio" name="options" id="option1"> Yes
+                            </label>
+                            <label class="btn btn-primary btn-lg">
+                                <input type="radio" name="options" id="option2"> No
+                            </label>
+                        </div>
                     </div>
 
                 </div>

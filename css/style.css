@@ -193,22 +193,26 @@ body {
 
 
 
-.rate-us .btn-lg:active,
+/* .rate-us .btn-lg:active,
 .rate-us .btn-lg:focus,
 .rate-us .btn-lg:link {
     background-color: #007BFF;
     border-color: #007BFF;
     color: #FFF;
-}
+} */
 
 /* Rate us  */
-.rate-us .btn-outline-primary {
+/* .rate-us .btn-outline-primary {
     padding: 0.6rem 2rem;
+} */
+.rate-us .btn-group-lg>.btn,
+.btn-lg {
+    padding: 1rem 2.5rem;
+    font-size: 1.75rem;
+    line-height: 1.5;
+    border-radius: .3rem;
 }
 
-.rate-us .rate-text {
-    font-size: 1.7rem;
-}
 
 
 
@@ -220,11 +224,18 @@ div.stars {
 
 .commonLable {
     margin-left: 0px;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     color: #000;
     margin-top: 10px;
+}
+
+.rate-text {
+    font-size: 25px;
+    color: #f0b111;
+    padding-left: 5px;
+    margin: 0 auto;
 }
 
 input.star {

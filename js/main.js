@@ -21,7 +21,7 @@ for (i = 0; i < data.length; i++) {
     var container = document.getElementById("container");
 
     var row = document.createElement('div');
-    row.className = "form-row";
+    row.className = `form-row ${data[i].ATTRIBUTEID}`;
 
     var commonLabel = document.createElement('label');
     commonLabel.className = "commonLable col-lg-4";
@@ -30,6 +30,10 @@ for (i = 0; i < data.length; i++) {
 
     var form_group = document.createElement('div');
     form_group.className = "form-group col-lg-4";
+
+    var rate_text = document.createElement('h3');
+    rate_text.className = "rate-text";
+    rate_text.innerHTML = "Thanks For Rate";
 
     for (j = 5; j > 0; j--) {
         var star = document.createElement("input");
@@ -52,8 +56,13 @@ for (i = 0; i < data.length; i++) {
 $('input[name ="CONTENT"]').on('click', function (e) {
     // alert($('input[name ="CONTENT"]:checked').val())
 
+
+    $('.CONTENT').empty();
+    $('.CONTENT').append(rate_text);
 });
 
 $('input[name ="SPEAKER"]').on('click', function (e) {
     // alert($('input[name ="SPEAKER"]:checked').val())
+    $('.SPEAKER').empty();
+    $('.SPEAKER').append(rate_text);
 });
