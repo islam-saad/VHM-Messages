@@ -24,12 +24,12 @@ for (i = 0; i < data.length; i++) {
     row.className = "form-row";
 
     var commonLabel = document.createElement('label');
-    commonLabel.className = "commonLable";
+    commonLabel.className = "commonLable col-lg-4";
     commonLabel.innerHTML = data[i].ATTRIBUTENAME;
 
 
     var form_group = document.createElement('div');
-    form_group.className = "form-group col-lg-12";
+    form_group.className = "form-group col-lg-4";
 
     for (j = 5; j > 0; j--) {
         var star = document.createElement("input");

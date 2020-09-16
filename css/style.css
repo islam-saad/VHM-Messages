@@ -210,42 +210,7 @@ body {
     font-size: 1.7rem;
 }
 
-.rating {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-}
 
-.rating>input {
-    display: none
-}
-
-.rating>label {
-    position: relative;
-    width: 40px;
-    font-size: 25px;
-    color: #FFD600;
-    cursor: pointer
-}
-
-.rating>label::before {
-    content: "\2605";
-    position: absolute;
-    opacity: 0
-}
-
-.rating>label:hover:before,
-.rating>label:hover~label:before {
-    opacity: 1 !important
-}
-
-.rating>input:checked~label:before {
-    opacity: 1
-}
-
-.rating:hover>input:checked~label:before {
-    opacity: 0.4
-}
 
 /* v2 */
 div.stars {
@@ -258,6 +223,8 @@ div.stars {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 15px;
+    color: #000;
+    margin-top: 10px;
 }
 
 input.star {
@@ -268,13 +235,13 @@ label.star {
     float: right;
     padding: 5px;
     font-size: 30px;
-    color: grey;
+    color: #000;
     transition: all .2s;
 }
 
 input.star:checked~label.star:before {
     content: '\2605';
-    color: #FD4;
+    color: #f0b111;
     transition: all .25s;
 }
 
