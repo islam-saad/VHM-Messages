@@ -33,7 +33,7 @@ for (i = 0; i < data.length; i++) {
 
     var rate_text = document.createElement('h3');
     rate_text.className = "rate-text";
-    rate_text.innerHTML = "Thanks For Rate";
+    rate_text.innerHTML = "Thanks For Rating";
 
     for (j = 5; j > 0; j--) {
         var star = document.createElement("input");
