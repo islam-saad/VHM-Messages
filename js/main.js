@@ -57,12 +57,12 @@ $('input[name ="CONTENT"]').on('click', function (e) {
     // alert($('input[name ="CONTENT"]:checked').val())
 
 
-    $('.CONTENT').empty();
-    $('.CONTENT').append(rate_text);
+    $('.CONTENT').remove();
+    container.append(rate_text);
 });
 
 $('input[name ="SPEAKER"]').on('click', function (e) {
     // alert($('input[name ="SPEAKER"]:checked').val())
-    $('.SPEAKER').empty();
-    $('.SPEAKER').append(rate_text);
+    $('.SPEAKER').remove();
+    container.append(rate_text);
 });
