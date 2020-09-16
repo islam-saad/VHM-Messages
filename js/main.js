@@ -50,10 +50,10 @@ for (i = 0; i < data.length; i++) {
 }
 
 $('input[name ="CONTENT"]').on('click', function (e) {
-    alert($('input[name ="CONTENT"]:checked').val())
+    // alert($('input[name ="CONTENT"]:checked').val())
 
 });
 
 $('input[name ="SPEAKER"]').on('click', function (e) {
-    alert($('input[name ="SPEAKER"]:checked').val())
+    // alert($('input[name ="SPEAKER"]:checked').val())
 });
