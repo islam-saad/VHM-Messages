@@ -320,6 +320,10 @@ label.star:before {
         height: 70vh;
         border: 0;
     }
+
+    .heading2 p {
+        font-size: 10px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
