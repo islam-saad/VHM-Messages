@@ -317,7 +317,7 @@ label.star:before {
     }
 
     .video-section iframe {
-        height: 80vh;
+        /* height: 80vh; */
         border: 0;
     }
 }
