@@ -21,7 +21,7 @@ for (i = 0; i < data.length; i++) {
     var container = document.getElementById("container");
 
     var row = document.createElement('div');
-    row.className = `form-row ${data[i].ATTRIBUTEID} col-md-6 text-center border border-dark mr-2`;
+    row.className = `form-row ${data[i].ATTRIBUTEID} col-md-12 text-center  mr-2`;
 
     var commonLabel = document.createElement('label');
     commonLabel.className = "commonLable col-lg-12";
@@ -29,7 +29,7 @@ for (i = 0; i < data.length; i++) {
 
 
     var form_group = document.createElement('div');
-    form_group.className = "form-group col-lg-12";
+    form_group.className = "form-group col-lg-12 d-flex flex-row-reverse justify-content-center";
 
     var rate_text = document.createElement('h3');
     rate_text.className = "rate-text";
