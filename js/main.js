@@ -66,3 +66,13 @@ $('input[name ="SPEAKER"]').on('click', function (e) {
     $('.SPEAKER').remove();
     container.append(rate_text);
 });
+$.post("https://secure.hyperfair.com/global/VHM/registrationservice/",
+    {
+        'secret': 'q94Hg1743gMnaczyxg87r32fg943', 'email': 'attendee@hyperfair.com',
+        'password': 'myPassword', 'firstName': 'AttendeeFirstName', 'lastName': 'AttendeeLastName',
+        'gender': 'female', 'workplace': 'myWorkPlace', 'specialty': 'mySpecialty',
+        'mobilePhone': '+123456789', 'SHCLN': '1234567', '_DEBUG_': 'true'
+    },
+    function (data, status) {
+        alert("Data: " + data + "\nStatus: " + status);
+    });
